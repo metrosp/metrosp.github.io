@@ -2073,6 +2073,8 @@ input, select, textarea {
 	flex-wrap: wrap;
 	position: center;
 	margin: -2.5em 0 0 -2.5em;
+	
+	
 }
 
 	.tiles article {
@@ -2083,6 +2085,7 @@ input, select, textarea {
 		position: relative;
 		width: calc(33.33333% - 2.5em);
 		margin: 2.5em 0 0 2.5em;
+		
 	}
 
 		.tiles article > .image {
@@ -2095,6 +2098,7 @@ input, select, textarea {
 			width: 100%;
 			border-radius: 4px;
 			overflow: hidden;
+			
 		}
 
 			.tiles article > .image img {
@@ -2206,7 +2210,7 @@ input, select, textarea {
 				}
 
 		.tiles article.style1 > .image:before {
-			background-color: #00000050;
+			background-color: #ffffff11;
 		}
 
 		.tiles article.style2 > .image:before {
