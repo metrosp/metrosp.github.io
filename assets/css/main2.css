@@ -164,15 +164,25 @@ input, select, textarea {
 	strong, b {
 		color: #fff491;
 		font-weight: 600;
+		text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 	}
 
 	em, i {
 		font-style: italic;
 	}
-
+/*popopo*/
 	p {
 		margin: 0 0 2rem 0;
 		color: #fff491;
+		text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -182,6 +192,11 @@ input, select, textarea {
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
+		text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
