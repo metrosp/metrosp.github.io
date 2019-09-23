@@ -10,6 +10,13 @@
 		$body = $('body'),
 		$wrapper = $('#wrapper');
 
+		var $iframe = $('iframe'),
+    src = $iframe.data('src');
+
+if (window.matchMedia("(min-width: 480px)").matches) {
+    $iframe.attr('src', src);
+}
+
 	// Breakpoints.
 		breakpoints({
 			xlarge:  [ '1281px',  '1680px' ],
