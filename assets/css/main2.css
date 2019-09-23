@@ -155,10 +155,12 @@ input, select, textarea {
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
 		color: inherit;
+		background: rgba(255, 255, 255, 0.50);
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
+			
 		}
 
 	strong, b {
@@ -1270,6 +1272,8 @@ input, select, textarea {
 				padding: 3rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
+				background: rgba(255, 255, 255, 0.03);
+				
 			}
 
 				#header .content .inner > :last-child {
