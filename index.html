@@ -11,9 +11,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main2.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script>
+				if(window.innerWidth <= 800 && window.innerHeight <= 600) {
+				  document.querySelector('.video').style.display = "none"
+			   }
+			  </script>
 	</head>
 	<body class="is-preload">
-			<div style="position: fixed; z-index: -99; width: 100%; height: 100%">
+			<div class="video" style="position: fixed; z-index: -99; width: 100%; height: 100%">
 					<iframe frameborder="0" height="100%" width="100%" 
 					  src="https://www.youtube.com/embed/RK1RRVR9A2g?controls=0&showinfo=0&mute=1&rel=0&autoplay=1&playlist=W0LHTWG-UmQ&showinfo=0&controls=0&autohide=1">
 					</iframe>
