@@ -155,7 +155,7 @@ input, select, textarea {
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
 		color: inherit;
-		background: rgba(255, 255, 255, 0.50);
+		background: rgba(255, 255, 255, 0.10);
 	}
 
 		a:hover {
