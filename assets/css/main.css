@@ -2098,7 +2098,7 @@ input, select, textarea {
 			position: relative;
 			display: block;
 			width: 100%;
-			border-radius: 10px;
+			border-radius: 1px;
 			overflow: hidden;
 			box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.199);
 			
